@@ -5,34 +5,29 @@ import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
 const musicSchoolContent = [
     {
-      title: 'Discover Your Sound with Us: A Personal Journey in Music Mastery',
+      title: 'Expert Instruction',
       description:
-        'Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.',
+        'Our courses are led by experienced instructors who are passionate about teaching Arabic language, Quranic studies, and Islamic knowledge. Benefit from their expertise and personalized guidance as you embark on your learning journey.',
     },
     {
-      title: 'Discover Your Sound with Us: A Personal Journey in Music Mastery',
+      title: 'Comprehensive Curriculum',
       description:
-        'Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.',
+        'We offer a comprehensive curriculum designed to cater to learners at all levels, from beginners to advanced. Explore a wide range of courses covering Arabic language fundamentals, Quranic recitation, Islamic ethics, and more, tailored to meet your learning objectives.',
     },
     {
-      title: 'Discover Your Sound with Us: A Personal Journey in Music Mastery',
+      title: 'Interactive Learning Experience',
       description:
-        'Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.',
+        'Engage in an interactive learning experience that goes beyond traditional methods. Our courses incorporate a variety of teaching techniques, including interactive lectures, discussions, and hands-on activities, to enhance your understanding and retention of the material.',
     },
     {
-      title: 'Live Feedback & Engagement',
+      title: 'Flexible Learning Options',
       description:
-        'Immerse yourself in an interactive learning experience where feedback is immediate, just like real-time changes in a collaborative project. This approach enhances your understanding and mastery of music concepts and performance techniques.',
+        'Choose from flexible learning options to fit your schedule and preferences. Whether you prefer self-paced online courses or live sessions with instructors, we offer a variety of options to accommodate your learning style and commitments.',
     },
     {
-      title: 'Cutting-Edge Curriculum',
+      title: 'Transformative Learning Experience',
       description:
-        'Our curriculum is continuously updated to include the latest music education trends and technologies, ensuring you’re always learning with the most current and effective methods. Say goodbye to outdated materials and welcome an education that evolves with the industry.',
-    },
-    {
-      title: 'Limitless Learning Opportunities',
-      description:
-        'With our expansive resource library and dynamic course offerings, you’ll never find yourself without something new to explore. Our platform provides continuous opportunities for growth, ensuring your musical skills are always advancing.',
+        'Experience the transformative power of education at Zia,s Academy. Gain new insights, broaden your horizons, and develop valuable skills that will empower you to succeed in your personal and professional life.',
     },
   ];
 
