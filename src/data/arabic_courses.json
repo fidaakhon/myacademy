@@ -8,7 +8,7 @@
       "price": 99.99,
       "instructor": "John Doe",
       "isFeatured": true,
-      "image": "/courses/guitar.jpg"
+      "image": "/courses/ArabicLanguage.jpg"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "price": 109.99,
       "instructor": "Jane Smith",
       "isFeatured": true,
-      "image": "/courses/piano.jpg"
+      "image": "/courses/ArabicDaily2.png"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "price": 119.99,
       "instructor": "Emily Johnson",
       "isFeatured": true,
-      "image": "/courses/vocalist.jpg"
+      "image": "/courses/Tajweed.jpg"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "price": 139.99,
       "instructor": "Chris Davis",
       "isFeatured": true,
-      "image": "/courses/jazz.jpg"
+      "image": "/courses/Conversation.jpg"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "price": 149.99,
       "instructor": "Alex Wilson",
       "isFeatured": true,
-      "image": "/courses/music-prod.jpg"
+      "image": "/courses/Nazira.jpg"
     }
   ]
 }
