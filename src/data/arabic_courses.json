@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Arabic Language Fundamentals",
-      "slug": "guitar-fundamentals",
+      "slug": "arabic_fundamentals",
       "description": "Lay a solid foundation in Arabic grammar, vocabulary, and pronunciation with our beginner-friendly course. Unlock the keys to conversational fluency and written proficiency.",
       "price": 99.99,
       "instructor": "John Doe",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "title": "Arabic for Daily Life",
-      "slug": "piano-for-beginners",
+      "slug": "arabic_daily_life",
       "description": " Learn practical Arabic skills for everyday communication, including greetings, expressions, and essential phrases. Build confidence in social interactions and cultural encounters",
       "price": 109.99,
       "instructor": "Jane Smith",
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "title": "Tajweed: Quranic Recitation",
-      "slug": "advanced-vocal-techniques",
+      "slug": "tajweed",
       "description": "Perfect your Quranic recitation with precise pronunciation, intonation, and rhythm. Learn the rules of Tajweed and deepen your connection to the sacred text.",
       "price": 119.99,
       "instructor": "Emily Johnson",
@@ -33,7 +33,7 @@
     {
       "id": 4,
       "title": "Arabic Conversation Practice",
-      "slug": "jazz-improvisation",
+      "slug": "arabic_conversation",
       "description": " Enhance your speaking skills and fluency through interactive conversation practice sessions. Engage in meaningful dialogues on a variety of topics to broaden your linguistic proficiency.",
       "price": 139.99,
       "instructor": "Chris Davis",
@@ -43,7 +43,7 @@
     {
       "id": 5,
       "title": "Quran Nazira",
-      "slug": "music-production-fundamentals",
+      "slug": "quran_nazira",
       "description": "Study the Quran with a focus on recitation and memorization (Nazira). Learn to read the Quran fluently with proper pronunciation and memorize selected verses to deepen your connection to the divine text.",
       "price": 149.99,
       "instructor": "Alex Wilson",
