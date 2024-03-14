@@ -22,15 +22,15 @@ function Navbar({ className }: { className?: string }) {
             >
                <div className="flex flex-col space-y-4 text-sm">
                <HoveredLink href="/courses">All Courses</HoveredLink>
-            <HoveredLink href="/courses">
-              Basic Music Theory
+            <HoveredLink href="/courses/arabic_fundamentals">
+              Arabic Fundamentals
             </HoveredLink>
-            <HoveredLink href="/courses">
-              Advanced Composition
+            <HoveredLink href="/courses/arabic_daily_life">
+              Arabic Daily Life
             </HoveredLink>
-            <HoveredLink href="/courses">Songwriting</HoveredLink>
-            <HoveredLink href="/courses">
-              Music Production
+            <HoveredLink href="/courses/nazira">Quran Nazira</HoveredLink>
+            <HoveredLink href="/courses/tajweed">
+              Tajweed
             </HoveredLink>
                </div>
             </MenuItem>

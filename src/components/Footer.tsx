@@ -75,6 +75,7 @@ function Footer() {
           <p>Lahore, Pakistan</p>
           <p>Email: 45365@gcslahore.edu.pk</p>
           <p>Phone: +92 3410573577</p>
+          <p>WhatsApp: +92 3410573577</p>
         </div>
       </div>
       <p className="text-center text-xs pt-8">© 2024 Zia's Academy. All rights reserved.</p>
