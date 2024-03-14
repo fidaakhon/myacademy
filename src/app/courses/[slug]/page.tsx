@@ -3,7 +3,7 @@ import { BackgroundBeams } from '@/components/ui/background-beams';
 import { useState, useEffect } from 'react';
 
 
-function page({ params }: { params: { slug: string } }) {
+const Page = ({ params }: { params: { slug: string } }) => {
     const slug = params.slug;
     const [show, setShow] = useState({
         fundamentals: false,
@@ -39,4 +39,4 @@ function page({ params }: { params: { slug: string } }) {
     )
 }
 
-export default page
+export default Page;
