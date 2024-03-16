@@ -13,18 +13,22 @@ function MusicSchoolContactUs() {
     message: '',
   });
   const [isSent, setIsSent] = useState(false);
+  const [isProcessing, setIsProcessing] = useState(false);
 
 
   const sendMail = (templateParams: any) => {
+    setIsProcessing(true);
     emailjs.send("acadmy_id", "template_lo78qyg", templateParams, "dfaY-Aoga6ddrbtcd")
       .then((result) => {
         console.log("Email sent successfully");
+        setIsProcessing(false);
         setData({
           email: '',
           message: ''
         });
         setIsSent(true);
       }, (error) => {
+        setIsProcessing(false);
         console.log(error.text);
       });
   }
@@ -36,7 +40,7 @@ function MusicSchoolContactUs() {
 
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-12 pt-36 relative" onClick={()=> setIsSent(false)}>
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-12 pt-36 relative" onClick={() => setIsSent(false)}>
       {' '}
       {/* Ensure the container is relative */}
       {/* BackgroundBeams with adjusted z-index */}
@@ -86,6 +90,10 @@ function MusicSchoolContactUs() {
               Your email has been sent successfully.
             </p>
           )}
+          {isProcessing && (
+            <p className="text-white text-sm">Sending your email...</p>
+          )}
+
           <button
             type="submit"
             className="px-6 py-2 rounded-lg bg-teal-500 text-white font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
