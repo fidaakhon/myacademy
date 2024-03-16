@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
         <div className="relative w-full flex items-center justify-center ">
           <Navbar />
         </div>
+        <Analytics />
         {children}
       </body>
     </html>
