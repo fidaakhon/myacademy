@@ -3,12 +3,16 @@
 import React, { useState } from 'react';
 import { BackgroundBeams } from '@/components/ui/background-beams';
 import emailjs from '@emailjs/browser';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 function MusicSchoolContactUs() {
   const [data, setData] = useState({
     email: '',
     message: '',
   });
+  const [isSent, setIsSent] = useState(false);
 
 
   const sendMail = (templateParams: any) => {
@@ -19,6 +23,7 @@ function MusicSchoolContactUs() {
           email: '',
           message: ''
         });
+        setIsSent(true);
       }, (error) => {
         console.log(error.text);
       });
@@ -31,7 +36,7 @@ function MusicSchoolContactUs() {
 
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-12 pt-36 relative">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-12 pt-36 relative" onClick={()=> setIsSent(false)}>
       {' '}
       {/* Ensure the container is relative */}
       {/* BackgroundBeams with adjusted z-index */}
@@ -48,6 +53,17 @@ function MusicSchoolContactUs() {
           programs, or events. Reach out and let us know how we can assist you
           in your musical journey.
         </p>
+        <div className="icons flex flex-col sm:flex-row sm:justify-between justify-center px-8">
+          <p className='text-white font-bold text-lg'><WhatsAppIcon className="text-5xl text-white" />: +92 3410573577 </p>
+          <div className="socialicons flex justify-between">
+            <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+              <FacebookRoundedIcon className="text-5xl text-white" />
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
+              <InstagramIcon className="text-5xl text-white" />
+            </a>
+          </div>
+        </div>
         <form onSubmit={submitHandler} className="space-y-4 mt-4">
           <input
             type="email"
@@ -65,6 +81,11 @@ function MusicSchoolContactUs() {
             rows={5}
             required
           ></textarea>
+          {isSent && (
+            <p className="text-white text-sm">
+              Your email has been sent successfully.
+            </p>
+          )}
           <button
             type="submit"
             className="px-6 py-2 rounded-lg bg-teal-500 text-white font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
