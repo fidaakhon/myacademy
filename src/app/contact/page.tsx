@@ -54,8 +54,8 @@ function MusicSchoolContactUs() {
           in your musical journey.
         </p>
         <div className="icons flex flex-col sm:flex-row sm:justify-between justify-center px-8">
-          <p className='text-white font-bold text-lg'><WhatsAppIcon className="text-5xl text-white" />: +92 3410573577 </p>
-          <div className="socialicons flex justify-between">
+          <p className='text-white font-bold text-lg mb-4'><WhatsAppIcon className="text-5xl text-white" />: +92 3410573577 </p>
+          <div className="socialicons flex justify-between px-7  gap-3">
             <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
               <FacebookRoundedIcon className="text-5xl text-white" />
             </a>
